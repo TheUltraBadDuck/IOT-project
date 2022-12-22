@@ -4,20 +4,6 @@
 #include <WiFi.h>
 
 
-// const char* ssid = "Wokwi-Hen-Farming";
-// const char* password = "12345678";
-
-
-// void wifiConnect() {
-//   WiFi.begin(ssid, password);
-//   while (WiFi.status() != WL_CONNECTED) {
-//     delay(500);
-//     Serial.println("Waiting for connecting");
-//   }
-//   Serial.println("CONNECTED");
-// }
-
-
 // The lightbulb will shine if:
 //  - The device is turned on.
 //  - It is in night mode.
